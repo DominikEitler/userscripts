@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        Skip TISS
+// @name        SkipTiss
 // @namespace   Violentmonkey Scripts
 // @match       https://tiss.tuwien.ac.at/*
 // @grant       none
@@ -9,8 +9,6 @@
 // ==/UserScript==
 
 (() => {
-    'use strict';
-
-    const x = document.getElementsByClassName("toolLogin")[0];
-    if (!!x) x.click();
+  const x = document.getElementsByClassName("toolLogin")[0];
+  if (!!x) x.click();
 })();

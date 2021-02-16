@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        Wikipedia search
+// @name        FocusWikipediaSearch
 // @namespace   Violentmonkey Scripts
 // @match       https://en.wikipedia.org/wiki/Main_Page
 // @match       https://de.wikipedia.org/wiki/Wikipedia:Hauptseite
@@ -10,6 +10,5 @@
 // ==/UserScript==
 
 (() => {
-    'use strict';
-    document.querySelector("input[name=search]").focus();
+  document.querySelector("input[name=search]").focus();
 })();

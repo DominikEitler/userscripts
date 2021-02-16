@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        Skip TUWEL
+// @name        SkipTuwel
 // @namespace   Violentmonkey Scripts
 // @match       https://tuwel.tuwien.ac.at/
 // @include     https://tuwel.tuwien.ac.at/auth/zid/index.php*
@@ -10,10 +10,10 @@
 // @description skips TUWEL landing page and redirects to TU SSO if not signed in
 // ==/UserScript==
 
-
 (() => {
-    'use strict';
-    setTimeout(() => {
-        document.querySelector('[href="https://tuwel.tuwien.ac.at/auth/saml2/login.php"]').click();
-    }, 200);
+  setTimeout(() => {
+    document
+      .querySelector('[href="https://tuwel.tuwien.ac.at/auth/saml2/login.php"]')
+      .click();
+  }, 200);
 })();
