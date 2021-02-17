@@ -10,5 +10,5 @@
 // ==/UserScript==
 
 (() => {
-  document.querySelector("input[name=search]").focus();
+  document.querySelector('input[name=search]').focus();
 })();

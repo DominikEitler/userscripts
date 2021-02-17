@@ -10,6 +10,6 @@
 
 (() => {
   document
-    .querySelector("#contentInner .spalte_links .secondaryButton")
+    .querySelector('#contentInner .spalte_links .secondaryButton')
     .click();
 })();

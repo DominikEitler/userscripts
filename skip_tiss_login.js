@@ -9,6 +9,6 @@
 // ==/UserScript==
 
 (() => {
-  const x = document.getElementsByClassName("toolLogin")[0];
+  const x = document.getElementsByClassName('toolLogin')[0];
   if (!!x) x.click();
 })();
