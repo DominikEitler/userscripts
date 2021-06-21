@@ -13,7 +13,7 @@
 (() => {
   setTimeout(() => {
     document
-      .querySelector('[href="https://tuwel.tuwien.ac.at/auth/saml2/login.php"]')
+      .querySelector('[href="/auth/saml2/login.php"]')
       .click();
   }, 200);
 })();
