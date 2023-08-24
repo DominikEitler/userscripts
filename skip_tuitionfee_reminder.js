@@ -8,8 +8,4 @@
 // @description skips reminder to pay tuition fee / ÖH Beitrag in TISS
 // ==/UserScript==
 
-(() => {
-  document
-    .querySelector('#contentInner .spalte_links .secondaryButton')
-    .click();
-})();
+document.querySelector("#contentInner .spalte_links .secondaryButton").click();

@@ -8,7 +8,5 @@
 // @description skips TISS landing page and redirects to TU SSO if not signed in
 // ==/UserScript==
 
-(() => {
-  const x = document.getElementsByClassName('toolLogin')[0];
-  if (!!x) x.click();
-})();
+const x = document.getElementsByClassName("toolLogin")[0];
+if (!!x) x.click();

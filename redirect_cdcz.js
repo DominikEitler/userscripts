@@ -8,6 +8,4 @@
 // @description redirect from czech to german site
 // ==/UserScript==
 
-(() => {
-  window.location.href = '/de/default.htm';
-})();
+window.location.href = "/de/default.htm";

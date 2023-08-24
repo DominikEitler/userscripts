@@ -9,6 +9,4 @@
 // @description Just focuses the search bar on the main wiki page ffs
 // ==/UserScript==
 
-(() => {
-  document.querySelector('input[name=search]').focus();
-})();
+document.querySelector("input[name=search]").focus();
