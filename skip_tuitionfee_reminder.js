@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        SkipStudienbeitragreminder
+// @name        Skip Studienbeitrag reminder
 // @namespace   Violentmonkey Scripts
 // @match       https://tiss.tuwien.ac.at/main/student
 // @grant       none
